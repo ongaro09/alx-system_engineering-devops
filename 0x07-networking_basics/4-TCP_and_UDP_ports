@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+# Displays the listening ports of sockets along with their PIDs
+ ss -tuln | grep "LISTEN"
